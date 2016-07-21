@@ -1,0 +1,66 @@
+\documentclass{article}
+
+\usepackage{amsfonts}
+
+\begin{document}
+\title{CS 173 Notes}
+\author{Robert Jacob Magyar}
+\date{Summer 2016}
+\maketitle
+
+\section*{Math Review}
+\subsection*{Sets}
+Know these Sets:
+
+\begin{itemize}
+\item $\mathbb{Z}$ - Integers
+\item $\mathbb{N}$ - Non-negative integers
+\item $\mathbb{Z}^+$ - Positive integers
+\item $\mathbb{R}$ - Real numbers
+\item $\mathbb{Q}$ - Rational numbers
+\item $\mathbb{C}$ - Complex numbers
+\end{itemize}
+\subsection*{Strings}
+
+\begin{itemize}
+\item $\epsilon$ - Empty string 
+\item $a | b$ - Either character a or b 
+\item $a*$ - Zero or more copies of character a 
+\end{itemize}
+
+\section*{Logic}
+\begin{itemize}
+\item Proposition - a statement which is true or false (but never both!)
+\item Predicate - Takes variable(s) as input
+\item $\lor$ - Logical OR
+\item $\land$ - Logical AND
+\item $\oplus$ - Logical XOR
+\item Conditional statement - Two propositions joined by "if". Shorthand $p \rightarrow q$
+\item Converse of $p \rightarrow q$ is $q \rightarrow p$
+\item Biconditional (if and only if) - $p \leftrightarrow q$
+\end{itemize}
+
+\subsection*{Equivalences}
+\begin{itemize}
+\item $p \lor (q \land r) \equiv (p \lor q) \land (p \lor r)$
+\item $p \land (q \lor r) \equiv (p \land q) \lor (p \land r)$
+\item $p \rightarrow q \equiv \neg p \lor q$
+\end{itemize}
+
+\subsection*{Notation}
+\begin{itemize}
+\item $\forall$ - For all
+\item $\exists$ - There exists
+\item $\exists!$ - There exists one and only one
+\end{itemize}
+
+\section*{Number Theory}
+\begin{itemize}
+\item $a | b$ - a divides b 
+\item $a \equiv b$ (mod k) if $k | (a-b)$ 
+\item if $a \equiv b$ and $c \equiv d$ then $a + c \equiv b + d$ 
+\item if $a \equiv b$ and $c \equiv d$ then $ac \equiv bd$ 
+\item A group of congruent integers is called a congruency class
+\end{itemize}
+
+\end{document}
